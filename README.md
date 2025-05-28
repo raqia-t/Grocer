@@ -3,17 +3,15 @@ This project fine-tunes a YOLOv8 object detection model on a custom grocery data
 
 📦 Features
 
-'''
-Fine-tunes YOLOv8 (yolov8n.pt) on custom grocery dataset.
+    Fine-tunes YOLOv8 (yolov8n.pt) on custom grocery dataset.
 
-Performs inference on single images and videos.
+    Performs inference on single images and videos.
 
-Tracks individual objects and counts them using track IDs.
+    Tracks individual objects and counts them using track IDs.
 
-Calculates a total cost for detected items.
+    Calculates a total cost for detected items.
 
-Outputs an annotated video with counts and pricing.
-'''
+    Outputs an annotated video with counts and pricing.
 
 
 📂 Dataset (via Roboflow)
@@ -22,13 +20,13 @@ The custom dataset includes three classes: ketchup, masala, and soap.
 
 🔽 Download from Roboflow
 
-'''
 Visit the dataset page:
-Roboflow Dataset URL
 
-Click Download Dataset > Choose YOLOv5 PyTorch format.
+    Roboflow Dataset URL
 
-Unzip and structure it like this in your Google Drive:
+    Click Download Dataset > Choose YOLOv5 PyTorch format.
+
+    Unzip and structure it like this in your Google Drive:
 
 /MyDrive/
 
@@ -108,17 +106,17 @@ python video_infer.py
 
 This will:
 
-'''
-Load your fine-tuned model.
 
-Run inference on soap_infer.mp4.
+    Load your fine-tuned model.
 
-Track and count objects.
+    Run inference on soap_infer.mp4.
 
-Overlay total cost.
+    Track and count objects.
 
-Save annotated output to output_infer.mp4.
-'''
+    Overlay total cost.
+
+    Save annotated output to output_infer.mp4.
+
 
 💰 Item Pricing (Editable)
 
@@ -128,13 +126,11 @@ item_costs = { "soap": 70, "ketchup": 250, "masala": 100 }
 
 You can adjust the pricing in video_infer.py as needed. 🧪 Notes
 
-'''
-Best run on GPU (Google Colab or local CUDA-enabled machines).
+    Best run on GPU (Google Colab or local CUDA-enabled machines).
 
-YOLOv8 is from Ultralytics.
+    YOLOv8 is from Ultralytics.
 
-Roboflow license: CC BY 4.0.
-'''
+    Roboflow license: CC BY 4.0.
 
 📜 License
 
