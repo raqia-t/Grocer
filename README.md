@@ -1,7 +1,7 @@
-🛒 Grocery Item Detection & Counting with YOLOv8, by Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban.
+#🛒 Grocery Item Detection & Counting with YOLOv8, by Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban.
 This project fine-tunes a YOLOv8 object detection model on a custom grocery dataset and includes video inference with real-time object counting and cost calculation.
 
-📦 Features
+#📦 Features
 
     Fine-tunes YOLOv8 (yolov8n.pt) on custom grocery dataset.
 
@@ -14,7 +14,7 @@ This project fine-tunes a YOLOv8 object detection model on a custom grocery data
     Outputs an annotated video with counts and pricing.
 
 
-📂 Dataset (via Roboflow)
+#📂 Dataset (via Roboflow)
 
 The custom dataset includes three classes: ketchup, masala, and soap.
 
@@ -64,7 +64,7 @@ nc: 3 names: ['ketchup', 'masala', 'soap']
 
 ⚙️ Installation
 
-📒 Requirements (Python or Jupyter)
+#📒 Requirements (Python or Jupyter)
 
 Install necessary libraries:
 
@@ -132,7 +132,7 @@ You can adjust the pricing in video_infer.py as needed. 🧪 Notes
 
     Roboflow license: CC BY 4.0.
 
-📜 License
+#📜 License
 
 This project uses the CC BY 4.0 license per the dataset from Roboflow. By Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban. Feel free to fork and experiment, but give credit where due!
 
