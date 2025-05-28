@@ -1,5 +1,5 @@
-# **🛒 Grocery Item Detection & Counting with YOLOv8, by Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban.
-# This project fine-tunes a YOLOv8 object detection model on a custom grocery dataset and includes video inference with real-time object counting and cost calculation.**
+# **🛒 Grocery Item Detection & Counting with YOLOv8, by Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban.**
+**This project fine-tunes a YOLOv8 object detection model on a custom grocery dataset and includes video inference with real-time object counting and cost calculation.**
 
 **📦 Features**
 
