@@ -3,7 +3,8 @@ This project fine-tunes a YOLOv8 object detection model on a custom grocery data
 
 📦 Features
 
-'''Fine-tunes YOLOv8 (yolov8n.pt) on custom grocery dataset.
+'''
+Fine-tunes YOLOv8 (yolov8n.pt) on custom grocery dataset.
 
 Performs inference on single images and videos.
 
@@ -32,7 +33,6 @@ Unzip and structure it like this in your Google Drive:
 /MyDrive/
 
 └── Data/
-'''
 └── grocery_yolov8/
 
     ├── train/
@@ -56,7 +56,6 @@ Unzip and structure it like this in your Google Drive:
     └── grocery_yolov8/
     
         └── data.yaml '
-'''
         
 
 The data.yaml file should look like:
@@ -109,7 +108,8 @@ python video_infer.py
 
 This will:
 
-'''Load your fine-tuned model.
+'''
+Load your fine-tuned model.
 
 Run inference on soap_infer.mp4.
 
