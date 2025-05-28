@@ -29,7 +29,7 @@ Roboflow Dataset URL
 Click Download Dataset > Choose YOLOv5 PyTorch format.
 
 Unzip and structure it like this in your Google Drive:
-'''
+
 /MyDrive/
 
 └── Data/
@@ -55,7 +55,7 @@ Unzip and structure it like this in your Google Drive:
     
     └── grocery_yolov8/
     
-        └── data.yaml '
+        └── data.yaml 
         
 
 The data.yaml file should look like:
@@ -139,3 +139,5 @@ Roboflow license: CC BY 4.0.
 📜 License
 
 This project uses the CC BY 4.0 license per the dataset from Roboflow. By Shaheryar Shakeel, Raqia Tauqir, Ahmed Soban. Feel free to fork and experiment, but give credit where due!
+
+
